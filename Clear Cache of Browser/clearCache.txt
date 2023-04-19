@@ -1,0 +1,5 @@
+		
+		response.setContentType("application/pdf");
+		response.setHeader( "Pragma", "cache" );
+		response.setHeader( "Cache-Control", "cache, no-store, must-revalidate" ); 
+		response.setDateHeader("Expires", 0);
